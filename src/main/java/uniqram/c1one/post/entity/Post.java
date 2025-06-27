@@ -30,9 +30,6 @@ public class Post extends BaseEntity {
     private String content;
 
     private String location;
-    
-    @Column(name = "hashtag")
-    private String Hashtag;
 
     private int likeCount;
     private int commentCount;
